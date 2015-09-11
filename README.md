@@ -18,6 +18,11 @@ _The setup for this app is easy. Just clone the repository and run "find-and-rep
 
 ## Technologies Used
 
+* _mocha.js_
+* _mocha.css_
+* _chai.js_
+* _jquery-1.11.3.js_
+
 _This app was written primarily in JavaScript. jQuery was used for routing purposes, and basic HTML & CSS were used to give the app life, as they do._
 
 ### Legal
