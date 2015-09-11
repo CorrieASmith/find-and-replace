@@ -13,3 +13,20 @@ var findReplace = function (string, firstWord, secondWord) {
   return string;
 
 };
+
+$(document).ready(function() {
+  $("form#find-and-replace").submit(function(event) {
+    var string = $("input#string").val();
+    var firstWord = $("input#firstWord").val();
+    var secondWord = $("input#secondWord").val();
+    var output = findReplace(string, firstWord, secondWord);
+
+    $(".string").text(string);
+    $(".firstWord").text(firstWord);
+    $(".secondWord").text(secondWord);
+    $(".output").text(output);
+
+    $("#output").show();
+    event.preventDefault();
+  });
+});
