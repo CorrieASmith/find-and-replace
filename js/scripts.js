@@ -1,4 +1,5 @@
 var findReplace = function (string, firstWord, secondWord) {
+  var string = string.toLowerCase();
   var splitString = string.split(" ");
   var regEx = /[\w+\s?,.!""]/ig;
 
