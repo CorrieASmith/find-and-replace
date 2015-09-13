@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is an extremely simple JavaScript application that allows a user to enter in a sentence, a word they'd like to replace and the replacement word. The program then returns the original string along with the replacement._
+_This is a simple JavaScript application that allows a user to enter in a sentence, a word they'd like to replace and the replacement word. The program then returns the original string along with the replacement._
 
 ## Setup
 
